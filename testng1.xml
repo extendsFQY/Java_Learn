@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="Java_Learn">
+      <parameter name="Browser" value="Chrome"/>
+      <parameter name="Server" value="https://wwww.baidu.com"/>
+    <classes>
+        <class name="com.java.learn.TestNG_Demo1"/>
+	    <class name="com.java.learn.TestNG_Demo2"/>
+        <class name="com.java.learn.TimeoutTest"/>
+	    <class name="demo2.TestNG_Demo3"/>
+        <class name="demo3.AssertTest"/>
+    </classes>
+  </test> <!-- Java_Learn -->
+</suite> <!-- Default Suite -->
